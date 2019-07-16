@@ -1,0 +1,16 @@
+version: 0.2
+
+phases:
+ install:
+   runtime-versions:
+      nodejs: 8
+   commands:
+      # Install dependencies needed for running tests
+      - npm install --unsafe-perm
+      - find ./node_modules -mtime +10950 -exec touch {} \;
+      # Upgrade AWS CLI to the latest version
+      - pip3 install --upgrade awscli
+artifacts:
+  type: zip
+  files:
+    - '**/*'

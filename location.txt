@@ -1,0 +1,7 @@
+{"location":{"text": "{text}",
+    "quick_replies":[
+      {
+        "content_type":"location"
+      }
+    ]
+  }, "en": {"text": "Where do you want to fly from?\nPlease type the airport or indicate your location and we'll advise you the nearest airports "}}

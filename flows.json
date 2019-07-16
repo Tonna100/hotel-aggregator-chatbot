@@ -1,0 +1,1768 @@
+[
+    {
+        "id": "4f457aa.f52a584",
+        "type": "tab",
+        "label": "Start",
+        "disabled": false,
+        "info": ""
+    },
+    {
+        "id": "e67760b4.f7e3e8",
+        "type": "tab",
+        "label": "webview_callback",
+        "disabled": false,
+        "info": ""
+    },
+    {
+        "id": "ddb02c75.f8384",
+        "type": "tab",
+        "label": "MongoDB",
+        "disabled": false,
+        "info": ""
+    },
+    {
+        "id": "4dbec83.e890bb8",
+        "type": "tab",
+        "label": "Quick_button",
+        "disabled": false,
+        "info": ""
+    },
+    {
+        "id": "64b635fe.7d8824",
+        "type": "tab",
+        "label": "Message",
+        "disabled": false,
+        "info": ""
+    },
+    {
+        "id": "612821d2.719428",
+        "type": "tab",
+        "label": "Button",
+        "disabled": false,
+        "info": ""
+    },
+    {
+        "id": "cc97d0c.ffef73",
+        "type": "tab",
+        "label": "getTemplate",
+        "disabled": false,
+        "info": ""
+    },
+    {
+        "id": "beaccb4f.841de",
+        "type": "tab",
+        "label": "/message",
+        "disabled": false,
+        "info": ""
+    },
+    {
+        "id": "cd379d6.3a41be",
+        "type": "subflow",
+        "name": "Subflow 1",
+        "info": "",
+        "category": "",
+        "in": [
+            {
+                "x": 51,
+                "y": 42,
+                "wires": []
+            }
+        ],
+        "out": [
+            {
+                "x": 860,
+                "y": 40,
+                "wires": []
+            }
+        ],
+        "env": []
+    },
+    {
+        "id": "211e6be2.f59a04",
+        "type": "mongodb3",
+        "z": "",
+        "uri": "mongodb+srv://test-4z9am.mongodb.net/FB",
+        "name": "",
+        "options": "",
+        "parallelism": "-1"
+    },
+    {
+        "id": "19819b90.1ee66c",
+        "type": "mongodb3",
+        "z": "",
+        "uri": "mongodb://admin:12345@localhost:27017/admin",
+        "name": "",
+        "options": "",
+        "parallelism": "-1"
+    },
+    {
+        "id": "70f0760.5b2568c",
+        "type": "mongodb",
+        "z": "",
+        "hostname": "127.0.0.1",
+        "port": "27017",
+        "db": "admin",
+        "name": ""
+    },
+    {
+        "id": "35f5ca05.ac465e",
+        "type": "mongodb2",
+        "z": "",
+        "uri": "mongodb+srv://Chatbots_Studio:12345@test-4z9am.mongodb.net/FB",
+        "name": "",
+        "options": "",
+        "parallelism": "-1"
+    },
+    {
+        "id": "dcb59d23.2b1108",
+        "type": "mongodb2",
+        "name": ""
+    },
+    {
+        "id": "a88b174b.178f9",
+        "type": "mongodb",
+        "z": "",
+        "hostname": "mongodb://Max:12345@test-shard-00-00-4z9am.mongodb.net:27017/test?ssl=true&replicaSet=Cluster0-shard-0&authSource=admin",
+        "port": "27017",
+        "db": "test",
+        "name": ""
+    },
+    {
+        "id": "ff11b600.bd24c8",
+        "type": "mongodb-config",
+        "z": 0,
+        "hostname": "127.0.0.1",
+        "port": "27017",
+        "db": "",
+        "name": ""
+    },
+    {
+        "id": "babc3c9d.3c0618",
+        "type": "mongodb-config",
+        "z": 0,
+        "hostname": "mongodb+srv://xn--test-4z9m-x4h.mongodb.net",
+        "port": "27017",
+        "db": "Chatbots_Studio:0937202078M@test-4z9am.mongodb.net/test?retryWrites=true&w=majority",
+        "name": ""
+    },
+    {
+        "id": "bdd2fabe.3a8cb8",
+        "type": "mongodb2",
+        "z": 0,
+        "uri": "mongodb://Max:12345@test-shard-00-02-4z9am.mongodb.net:27017,,test-shard-00-01-4z9am.mongodb.net:27017,test-shard-00-02-4z9am.mongodb.net:27017/shop?ssl=true&replicaSet=example-shard-0&authSource=admin",
+        "name": "",
+        "options": "",
+        "parallelism": "-1"
+    },
+    {
+        "id": "353dfa0b.27f946",
+        "type": "mongodb2",
+        "z": 0,
+        "name": ""
+    },
+    {
+        "id": "da4a980c.54fb08",
+        "type": "mongodb3",
+        "z": 0,
+        "uri": "mongodb+srv://Chatbots_Studio:12345@test-4z9am.mongodb.net/test?retryWrites=true&w=majority",
+        "name": "",
+        "options": "",
+        "parallelism": "-1"
+    },
+    {
+        "id": "ad7888e7.7e30f",
+        "type": "mongodb3",
+        "z": "",
+        "uri": "mongodb+srv://Max:12345@test-4z9am.mongodb.net/FB",
+        "name": "",
+        "options": "",
+        "parallelism": "-1"
+    },
+    {
+        "id": "eabd7567.e89908",
+        "type": "mongodb3",
+        "z": 0,
+        "uri": "mongodb+srv://Chatbots_Studio:12345@test-4z9am.mongodb.net/FB",
+        "name": "",
+        "options": "",
+        "parallelism": "-1"
+    },
+    {
+        "id": "c3542641.39dd5",
+        "type": "mongodb3",
+        "z": 0,
+        "uri": "mongodb+srv://Chatbots-Studio:Chatbots@testcluster-ion7k.mongodb.net/CoffeBot",
+        "name": "",
+        "options": "",
+        "parallelism": "-1"
+    },
+    {
+        "id": "8d406748.e77b08",
+        "type": "mongodb3",
+        "z": 0,
+        "uri": "mongodb+srv://Chatbots_Studio:12345@test-4z9am.mongodb.net/FB",
+        "name": "",
+        "options": "",
+        "parallelism": "-1"
+    },
+    {
+        "id": "c1520718.b013d",
+        "type": "http response",
+        "z": "4f457aa.f52a584",
+        "name": "200",
+        "statusCode": "200",
+        "headers": {
+            "content-type": "application/json"
+        },
+        "x": 65.42379379272461,
+        "y": 570.423791885376,
+        "wires": []
+    },
+    {
+        "id": "2149e364.17464c",
+        "type": "switch",
+        "z": "4f457aa.f52a584",
+        "name": "Собітие Get_started",
+        "property": "payload.entry[0].messaging[0].postback.payload",
+        "propertyType": "msg",
+        "rules": [
+            {
+                "t": "eq",
+                "v": "get_started",
+                "vt": "str"
+            },
+            {
+                "t": "else"
+            }
+        ],
+        "checkall": "true",
+        "repair": false,
+        "outputs": 2,
+        "x": 667.6666259765625,
+        "y": 488.666748046875,
+        "wires": [
+            [
+                "5e4d10f0.c71138",
+                "c7257d5a.eace78",
+                "8163629f.8496e8"
+            ],
+            [
+                "d64a40da.cf5df8",
+                "ef04d090.d2ba4"
+            ]
+        ]
+    },
+    {
+        "id": "d64a40da.cf5df8",
+        "type": "function",
+        "z": "4f457aa.f52a584",
+        "name": "Определяем тип ответа ",
+        "func": "var event = \"\";  \n\n        if (typeof msg.payload.entry[0].messaging[0].postback !== \"undefined\"){\n            msg.payload.event = 'Button';\n            \n        } else if (typeof msg.payload.entry[0].messaging[0].message.quick_reply !== \"undefined\") {\n           msg.payload.event = 'Quick';\n           \n        } else if (typeof msg.payload.entry[0].messaging[0].message.attachments !== \"undefined\") {\n           msg.payload.event = 'Cordinates';\n           \n        } else {\n           msg.payload.event = 'Message';    \n        }\n      \n     \nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "x": 935.9999783833819,
+        "y": 611.0000425974528,
+        "wires": [
+            [
+                "b8721d7d.2c3e38",
+                "ae75257f.12f52"
+            ]
+        ]
+    },
+    {
+        "id": "45917a7b.625964",
+        "type": "switch",
+        "z": "4f457aa.f52a584",
+        "name": "Разделяем типы событий",
+        "property": "payload.event",
+        "propertyType": "msg",
+        "rules": [
+            {
+                "t": "eq",
+                "v": "Quick",
+                "vt": "str"
+            },
+            {
+                "t": "eq",
+                "v": "Message",
+                "vt": "str"
+            },
+            {
+                "t": "eq",
+                "v": "Button",
+                "vt": "str"
+            },
+            {
+                "t": "eq",
+                "v": "Cordinates",
+                "vt": "str"
+            }
+        ],
+        "checkall": "true",
+        "repair": false,
+        "outputs": 4,
+        "x": 1959.93359375,
+        "y": 576.2333374023438,
+        "wires": [
+            [
+                "7cadab77.07ef64"
+            ],
+            [
+                "dbc3c261.1792f"
+            ],
+            [
+                "ab0cea13.c9a52"
+            ],
+            [
+                "f7de063a.e737b"
+            ]
+        ]
+    },
+    {
+        "id": "dd01c557.d6db28",
+        "type": "debug",
+        "z": "4f457aa.f52a584",
+        "name": "Входящие сообщения",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "payload",
+        "targetType": "msg",
+        "x": 120,
+        "y": 540,
+        "wires": []
+    },
+    {
+        "id": "d58ce16e.a8f31",
+        "type": "http in",
+        "z": "4f457aa.f52a584",
+        "name": "",
+        "url": "/hotel",
+        "method": "post",
+        "upload": false,
+        "swaggerDoc": "",
+        "x": 70,
+        "y": 480,
+        "wires": [
+            [
+                "c1520718.b013d",
+                "dd01c557.d6db28",
+                "feaeb838.b3e5d8"
+            ]
+        ]
+    },
+    {
+        "id": "a4e2e7df.a50978",
+        "type": "link in",
+        "z": "612821d2.719428",
+        "name": "Buttons",
+        "links": [
+            "ab0cea13.c9a52"
+        ],
+        "x": 126.44999694824219,
+        "y": 889.8999633789062,
+        "wires": [
+            [
+                "f98f072d.958ee8",
+                "2226e670.b11c12"
+            ]
+        ]
+    },
+    {
+        "id": "a8a31185.cbc928",
+        "type": "link in",
+        "z": "4dbec83.e890bb8",
+        "name": "Quick_buttons",
+        "links": [
+            "7cadab77.07ef64"
+        ],
+        "x": 121.44999694824219,
+        "y": 552.8999786376953,
+        "wires": [
+            [
+                "19ff2909.f3f0df",
+                "85089cd1.ffe368"
+            ]
+        ]
+    },
+    {
+        "id": "12a35d22.b2c48b",
+        "type": "link in",
+        "z": "64b635fe.7d8824",
+        "name": "Message",
+        "links": [
+            "dbc3c261.1792f"
+        ],
+        "x": 155.00000190734863,
+        "y": 563.0000076293945,
+        "wires": [
+            [
+                "da7c7dda.0aa8b8",
+                "228d9292.17a62e"
+            ]
+        ]
+    },
+    {
+        "id": "7cadab77.07ef64",
+        "type": "link out",
+        "z": "4f457aa.f52a584",
+        "name": "",
+        "links": [
+            "a8a31185.cbc928"
+        ],
+        "x": 2138.450339635213,
+        "y": 502.26674811045325,
+        "wires": []
+    },
+    {
+        "id": "dbc3c261.1792f",
+        "type": "link out",
+        "z": "4f457aa.f52a584",
+        "name": "",
+        "links": [
+            "12a35d22.b2c48b"
+        ],
+        "x": 2136.450339635213,
+        "y": 549.2667490641276,
+        "wires": []
+    },
+    {
+        "id": "ab0cea13.c9a52",
+        "type": "link out",
+        "z": "4f457aa.f52a584",
+        "name": "",
+        "links": [
+            "a4e2e7df.a50978"
+        ],
+        "x": 2137.56689453125,
+        "y": 594.5667114257812,
+        "wires": []
+    },
+    {
+        "id": "f7de063a.e737b",
+        "type": "link out",
+        "z": "4f457aa.f52a584",
+        "name": "",
+        "links": [
+            "d6ca0929.43429"
+        ],
+        "x": 2135.56694539388,
+        "y": 647.5667215983073,
+        "wires": []
+    },
+    {
+        "id": "19ff2909.f3f0df",
+        "type": "switch",
+        "z": "4dbec83.e890bb8",
+        "name": "Отсеиваем нажатие на quickreply",
+        "property": "entry[0].messaging[0].message.quick_reply.payload",
+        "propertyType": "msg",
+        "rules": [
+            {
+                "t": "eq",
+                "v": "back_Destination",
+                "vt": "str"
+            },
+            {
+                "t": "else"
+            }
+        ],
+        "checkall": "true",
+        "repair": false,
+        "outputs": 2,
+        "x": 333.96630859375,
+        "y": 551.9999389648438,
+        "wires": [
+            [
+                "a60dc612.1cc6b",
+                "aa7fcc7a.fd987"
+            ],
+            []
+        ]
+    },
+    {
+        "id": "da7c7dda.0aa8b8",
+        "type": "switch",
+        "z": "64b635fe.7d8824",
+        "name": "Разделяем введенные сообщения",
+        "property": "payload.UserStep",
+        "propertyType": "msg",
+        "rules": [
+            {
+                "t": "eq",
+                "v": "location",
+                "vt": "str"
+            },
+            {
+                "t": "else"
+            }
+        ],
+        "checkall": "true",
+        "repair": false,
+        "outputs": 2,
+        "x": 352.566650390625,
+        "y": 566.5666198730469,
+        "wires": [
+            [
+                "c596f438.de8f68",
+                "dbca5dc1.ceb568"
+            ],
+            [
+                "84407908.51f7f8"
+            ]
+        ]
+    },
+    {
+        "id": "f98f072d.958ee8",
+        "type": "switch",
+        "z": "612821d2.719428",
+        "name": "Разделяем нажатия на кнопки",
+        "property": "payload.entry[0].messaging[0].postback.payload",
+        "propertyType": "msg",
+        "rules": [
+            {
+                "t": "else"
+            }
+        ],
+        "checkall": "true",
+        "repair": false,
+        "outputs": 1,
+        "x": 315.2333221435547,
+        "y": 877.2332992553711,
+        "wires": [
+            [
+                "e25a0a48.2023f8"
+            ]
+        ]
+    },
+    {
+        "id": "296ba2b0.074ace",
+        "type": "http in",
+        "z": "4f457aa.f52a584",
+        "name": "Messenger verification webhook",
+        "url": "/hotel",
+        "method": "get",
+        "upload": false,
+        "swaggerDoc": "",
+        "x": 216.56666564941406,
+        "y": 154.56666564941406,
+        "wires": [
+            [
+                "b2bacbf1.543eb8",
+                "ec09e1a.df840a"
+            ]
+        ]
+    },
+    {
+        "id": "b2bacbf1.543eb8",
+        "type": "debug",
+        "z": "4f457aa.f52a584",
+        "name": "Verify webhook",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "payload",
+        "targetType": "msg",
+        "x": 473.6499938964844,
+        "y": 95.56665802001953,
+        "wires": []
+    },
+    {
+        "id": "bf1fb2ea.b0ede",
+        "type": "http response",
+        "z": "4f457aa.f52a584",
+        "name": "",
+        "statusCode": "",
+        "headers": {},
+        "x": 763.64990234375,
+        "y": 200.56668090820312,
+        "wires": []
+    },
+    {
+        "id": "ec09e1a.df840a",
+        "type": "function",
+        "z": "4f457aa.f52a584",
+        "name": "",
+        "func": "var mode = '';\nvar vtoken = '';\nvar challenge = '';\nif (msg.payload['hub.mode']) \n{\n    mode = msg.payload['hub.mode'];\n}\nif (msg.payload['hub.verify_token']) \n{\n    vtoken = msg.payload['hub.verify_token'];\n}\nif (msg.payload['hub.challenge']) \n{\n    challenge = msg.payload['hub.challenge'];\n}\nif ('subscribe' == mode &&\n  'EAAO4yPW14rABAIQppk6dZCgGtbnXoaVrzMlrVYSM21XQYe1175b63NdLuIP1qg3PZAxA5ZBtmBvXlwg4hOY4VVFKKVASPUNY7mrgHl5szfsRybhnZB887MxpBHxQ2j0LHZBXsBunkQD2JdOSv91eqZAgQOLkgjcAgtqmrSzzX1mQZDZD' == vtoken) {\n    msg.payload = challenge;\n}\n\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "x": 502.64991760253906,
+        "y": 158.56666564941406,
+        "wires": [
+            [
+                "bf1fb2ea.b0ede",
+                "b2bacbf1.543eb8"
+            ]
+        ]
+    },
+    {
+        "id": "b8721d7d.2c3e38",
+        "type": "function",
+        "z": "4f457aa.f52a584",
+        "name": "Получаем шаг пользователя из DB ",
+        "func": "\nmsg.event = msg.payload.event\nmsg.entry = msg.payload.entry\nmsg.payload=[{$query:{user_id:msg.recepient}}]\n\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "x": 1271.5665283203125,
+        "y": 610.2333984375,
+        "wires": [
+            [
+                "94f39aa9.2ea818",
+                "6b757647.86397"
+            ]
+        ]
+    },
+    {
+        "id": "228d9292.17a62e",
+        "type": "debug",
+        "z": "64b635fe.7d8824",
+        "name": "Message",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "true",
+        "targetType": "full",
+        "x": 189.44996643066406,
+        "y": 720.3999633789062,
+        "wires": []
+    },
+    {
+        "id": "c4d69583.aef758",
+        "type": "comment",
+        "z": "4dbec83.e890bb8",
+        "name": "Жалоба на товар",
+        "info": "",
+        "x": 766.699951171875,
+        "y": 1571.9667358398438,
+        "wires": []
+    },
+    {
+        "id": "4844741b.3ffaec",
+        "type": "function",
+        "z": "4dbec83.e890bb8",
+        "name": "Добаляем шаг пользователя в BD",
+        "func": "msg.payload=[{user_id:msg.payload.user_id},{\n$set:{\n    UserStep:\"product_complaint\"\n}}]\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "x": 549.699951171875,
+        "y": 1725.9667358398438,
+        "wires": [
+            [
+                "7d45b6ad.3a1a28"
+            ]
+        ]
+    },
+    {
+        "id": "315b82e5.941136",
+        "type": "function",
+        "z": "4dbec83.e890bb8",
+        "name": "Запрос темплейта Жалоба на товар",
+        "func": "\nvar recepient = msg.payload.value.user_id;\nvar template = \"product_complaint\";\nvar lang = \"ru\";\n \nmsg.payload.template = template;\nmsg.payload.recepient = recepient;\nmsg.payload.lang = lang;\n\n\n\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "x": 1221.9671020507812,
+        "y": 1728.1500854492188,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "515e2eb5.edfd1",
+        "type": "function",
+        "z": "4dbec83.e890bb8",
+        "name": "Добаляем шаг пользователя в BD",
+        "func": "msg.payload=[{user_id:msg.payload.user_id},{\n$set:{\n    UserStep:msg.payload.entry[0].messaging[0].message.quick_reply.payload\n}}]\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "x": 532.699951171875,
+        "y": 1631.3667602539062,
+        "wires": [
+            [
+                "3651247c.3aad4c"
+            ]
+        ]
+    },
+    {
+        "id": "3e31edaf.850c6a",
+        "type": "function",
+        "z": "4dbec83.e890bb8",
+        "name": "Запрос темплейта Геолокация, жалоба на товар",
+        "func": "\nvar recepient = msg.payload.value.user_id;\nvar template = \"product_complaint_select\";\nvar lang = \"ru\";\n \nmsg.payload.template = template;\nmsg.payload.recepient = recepient;\nmsg.payload.lang = lang;\n\n\n\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "x": 1241.9671630859375,
+        "y": 1628.5501098632812,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "d6e3a551.97e1f",
+        "type": "link in",
+        "z": "4dbec83.e890bb8",
+        "name": "product_complaint",
+        "links": [
+            "f9a5523.7d809b"
+        ],
+        "x": 359.44989013671875,
+        "y": 1735.9000854492188,
+        "wires": [
+            [
+                "4844741b.3ffaec"
+            ]
+        ]
+    },
+    {
+        "id": "7d45b6ad.3a1a28",
+        "type": "mongodb3 in",
+        "z": "4dbec83.e890bb8",
+        "service": "_ext_",
+        "configNode": "ad7888e7.7e30f",
+        "name": "connect to db",
+        "collection": "Users",
+        "operation": "findOneAndUpdate",
+        "x": 955.8171997070312,
+        "y": 1725.7667846679688,
+        "wires": [
+            [
+                "315b82e5.941136"
+            ]
+        ]
+    },
+    {
+        "id": "3651247c.3aad4c",
+        "type": "mongodb3 in",
+        "z": "4dbec83.e890bb8",
+        "service": "_ext_",
+        "configNode": "ad7888e7.7e30f",
+        "name": "connect to db",
+        "collection": "Users",
+        "operation": "findOneAndUpdate",
+        "x": 935.8172607421875,
+        "y": 1626.1668090820312,
+        "wires": [
+            [
+                "3e31edaf.850c6a"
+            ]
+        ]
+    },
+    {
+        "id": "5e4d10f0.c71138",
+        "type": "debug",
+        "z": "4f457aa.f52a584",
+        "name": "",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "true",
+        "targetType": "full",
+        "x": 657.6666259765625,
+        "y": 448.666748046875,
+        "wires": []
+    },
+    {
+        "id": "ef04d090.d2ba4",
+        "type": "debug",
+        "z": "4f457aa.f52a584",
+        "name": "",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "true",
+        "targetType": "full",
+        "x": 654.8094863891602,
+        "y": 522.9524784088135,
+        "wires": []
+    },
+    {
+        "id": "6069ad42.99ac64",
+        "type": "inject",
+        "z": "cc97d0c.ffef73",
+        "name": "",
+        "topic": "",
+        "payload": "{\"template\": \"RequestPhone\", \"lang\": \"ru\", \"recipient\": \"3242342342\"}",
+        "payloadType": "json",
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "x": 247.1428737640381,
+        "y": 287.14285469055176,
+        "wires": [
+            [
+                "276cc111.e39f06"
+            ]
+        ]
+    },
+    {
+        "id": "276cc111.e39f06",
+        "type": "function",
+        "z": "cc97d0c.ffef73",
+        "name": "set fileName",
+        "func": "msg.filename = msg.payload.template + \".txt\"\nmsg.lang = msg.payload.lang;\n// msg.recepient = msg.payload.recepient\nmsg.template = msg.payload.template\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "x": 405.1428985595703,
+        "y": 187.2095546722412,
+        "wires": [
+            [
+                "c3dc272f.28c01"
+            ]
+        ]
+    },
+    {
+        "id": "659fcbd6.904614",
+        "type": "debug",
+        "z": "cc97d0c.ffef73",
+        "name": "",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "true",
+        "x": 947.1428737640381,
+        "y": 147.14285469055176,
+        "wires": []
+    },
+    {
+        "id": "c3dc272f.28c01",
+        "type": "file in",
+        "z": "cc97d0c.ffef73",
+        "name": "",
+        "filename": "",
+        "format": "utf8",
+        "chunk": false,
+        "sendError": false,
+        "x": 556.1428451538086,
+        "y": 187.60934829711914,
+        "wires": [
+            [
+                "84eecaf6.15455",
+                "e431a86c.a0a31"
+            ]
+        ]
+    },
+    {
+        "id": "84eecaf6.15455",
+        "type": "function",
+        "z": "cc97d0c.ffef73",
+        "name": "parse",
+        "func": "msg.payload=JSON.parse(msg.payload)\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "x": 687.1429023742676,
+        "y": 187.2093858718872,
+        "wires": [
+            [
+                "3b1eeed3.80d50a",
+                "30d5ff6c.bc41e8"
+            ]
+        ]
+    },
+    {
+        "id": "3b1eeed3.80d50a",
+        "type": "function",
+        "z": "cc97d0c.ffef73",
+        "name": "set form",
+        "func": "var a = msg.payload\nvar b = msg.payload[msg.lang]\nfunction getFiniteValue(obj) {\n getProp(obj);\n function getProp(o) {\n   for(var prop in o) {\n     if(typeof(o[prop]) === 'object') {\n       getProp(o[prop]);\n     } else {\n       for(let i in b) {\n         console.log(`{${i}}` + '   ' + b[i]);\n         o[prop] = o[prop].replace(`{${i}}`, b[i] )\n       }\n\n     }\n   }\n }\n}\ngetFiniteValue(a);\n//msg.payload = a[msg.template];\n\nmsg.payload = {\n    \"recipient\": {\"id\": msg.recepient},\n    \"message\": a[msg.template]\n}\n\nreturn msg;\n\n\n\n\n",
+        "outputs": 1,
+        "noerr": 0,
+        "x": 827.1429138183594,
+        "y": 187.20938682556152,
+        "wires": [
+            [
+                "659fcbd6.904614",
+                "6ad58ac2.80b79c"
+            ]
+        ]
+    },
+    {
+        "id": "30d5ff6c.bc41e8",
+        "type": "debug",
+        "z": "cc97d0c.ffef73",
+        "name": "",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "true",
+        "x": 767.1428737640381,
+        "y": 147.14285469055176,
+        "wires": []
+    },
+    {
+        "id": "eb113347.96c838",
+        "type": "link in",
+        "z": "cc97d0c.ffef73",
+        "name": "/sendMessage",
+        "links": [
+            "e7ba840a.492698",
+            "8a349096.e1f988",
+            "cb07d5f8.ff8d68",
+            "344cc6a5.8fd22a",
+            "992bec01.222bc",
+            "e7417567.39a5f8",
+            "6ff25bc0.7c9234",
+            "d217806f.8b4708",
+            "e8757184.d3b898",
+            "53fcde83.c84ad8",
+            "ac2350f.d3659b",
+            "f528be96.ff7ff8",
+            "e0f404de.64de88",
+            "6e327d1d.1b09b4",
+            "3c4c532a.0699ec",
+            "2195b202.cd619e",
+            "411ba91f.04efe8",
+            "953df563.84af6",
+            "a5ca8be9.72c9",
+            "be5031e2.8b2ce8",
+            "83d377f0.adeaf",
+            "4f0fa604.ed1dc",
+            "9e49d981.32721",
+            "db8c6032.12058",
+            "1e3d3aad.95b835",
+            "2a2946d7.63d49a",
+            "9c815f44.df436",
+            "ca22e5e7.429a98",
+            "53764dc9.57976c",
+            "8a9c9c2f.883ae"
+        ],
+        "x": 272.1428737640381,
+        "y": 187.14285469055176,
+        "wires": [
+            [
+                "276cc111.e39f06",
+                "70dda093.23a7c8"
+            ]
+        ]
+    },
+    {
+        "id": "70dda093.23a7c8",
+        "type": "debug",
+        "z": "cc97d0c.ffef73",
+        "name": "",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "true",
+        "targetType": "full",
+        "x": 402.1428737640381,
+        "y": 289.14285469055176,
+        "wires": []
+    },
+    {
+        "id": "2226e670.b11c12",
+        "type": "debug",
+        "z": "612821d2.719428",
+        "name": "Buttons",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "payload",
+        "targetType": "msg",
+        "x": 216,
+        "y": 1049,
+        "wires": []
+    },
+    {
+        "id": "c8cff83c.29bf5",
+        "type": "link in",
+        "z": "beaccb4f.841de",
+        "name": "",
+        "links": [
+            "6ad58ac2.80b79c",
+            "d44af058.7561e8",
+            "5793a4fd.f7b4ec",
+            "7931b34c.264afc",
+            "4d6965f5.db9cdc",
+            "d9f2582.4fc5d28",
+            "41b76812.275ad8",
+            "c7f7845e.0c106",
+            "14325453.302c44",
+            "20b4486f.4d2468",
+            "22531351.46ce34"
+        ],
+        "x": 184.62851810455322,
+        "y": 149.28573417663574,
+        "wires": [
+            [
+                "b3cecc8d.b939f8"
+            ]
+        ]
+    },
+    {
+        "id": "c79b85e1.2ed538",
+        "type": "http request",
+        "z": "beaccb4f.841de",
+        "name": "",
+        "method": "POST",
+        "ret": "obj",
+        "paytoqs": false,
+        "url": "",
+        "tls": "",
+        "proxy": "",
+        "authType": "basic",
+        "x": 688.199951171875,
+        "y": 147.99996948242188,
+        "wires": [
+            [
+                "63f62093.687e78"
+            ]
+        ]
+    },
+    {
+        "id": "63f62093.687e78",
+        "type": "debug",
+        "z": "beaccb4f.841de",
+        "name": "",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "true",
+        "targetType": "full",
+        "x": 825.914306640625,
+        "y": 90.42852020263672,
+        "wires": []
+    },
+    {
+        "id": "6ad58ac2.80b79c",
+        "type": "link out",
+        "z": "cc97d0c.ffef73",
+        "name": "",
+        "links": [
+            "c8cff83c.29bf5"
+        ],
+        "x": 964.2001132965088,
+        "y": 238.00000381469727,
+        "wires": []
+    },
+    {
+        "id": "feaeb838.b3e5d8",
+        "type": "function",
+        "z": "4f457aa.f52a584",
+        "name": "GetEnv",
+        "func": "           msg.SendMessageUrl =  env.get(\"SendMessageUrl\")\n           msg.FbAccessToken = env.get(\"FbAccessToken\")\n           msg.FbUrl = env.get(\"FbUrl\")\n\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "x": 254.1166534423828,
+        "y": 486.5500183105469,
+        "wires": [
+            [
+                "1a6f22c4.0bdc05"
+            ]
+        ]
+    },
+    {
+        "id": "b3cecc8d.b939f8",
+        "type": "function",
+        "z": "beaccb4f.841de",
+        "name": "URL для отправки сообщения в Messenger",
+        "func": "msg.url = msg.SendMessageUrl\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "x": 411.83331298828125,
+        "y": 149.33334350585938,
+        "wires": [
+            [
+                "c79b85e1.2ed538",
+                "73870b5.5ee3574"
+            ]
+        ]
+    },
+    {
+        "id": "73870b5.5ee3574",
+        "type": "debug",
+        "z": "beaccb4f.841de",
+        "name": "",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "true",
+        "targetType": "full",
+        "x": 566.833251953125,
+        "y": 206.3333740234375,
+        "wires": []
+    },
+    {
+        "id": "49b08c34.7b8364",
+        "type": "link in",
+        "z": "ddb02c75.f8384",
+        "name": "MongoDB",
+        "links": [
+            "bd12b8f6.11aec8",
+            "ec615a1b.7558d8",
+            "caa6e96.d086698",
+            "104b8797.1a3ad8",
+            "d72b893e.c54038",
+            "78dc199d.c73b88",
+            "2c7ff8c.422e008",
+            "b995329b.482328",
+            "4ffdd9a1.875088",
+            "7b73d65b.a4483",
+            "712076fd.cb466",
+            "c58cf320.9d5538",
+            "d0d32956.8f0668",
+            "98be7148.aa634",
+            "342e01e3.e5431e",
+            "3e1e41c5.93de36",
+            "19770d8e.f4298a",
+            "e4ef49dd.7348b",
+            "1750223e.edd686",
+            "2cb0c878.377658",
+            "cb08e4ed.198e5",
+            "528d76e4.952e7",
+            "a6399df4.943f6",
+            "6b757647.86397",
+            "39ce79e.d088506",
+            "449253f8.d7e694"
+        ],
+        "x": 199.11666870117188,
+        "y": 362.3500061035156,
+        "wires": [
+            [
+                "15d4a998.914736",
+                "c5ff9f59.ce9f98"
+            ]
+        ]
+    },
+    {
+        "id": "e10f4822.69cee",
+        "type": "mongodb3 in",
+        "z": "ddb02c75.f8384",
+        "service": "_ext_",
+        "configNode": "ad7888e7.7e30f",
+        "name": "Апдейтим шаг пользователя",
+        "collection": "Users",
+        "operation": "findOneAndUpdate",
+        "x": 748.8499755859375,
+        "y": 180.85000610351562,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "fed64a5c.98fcc8",
+        "type": "mongodb3 in",
+        "z": "ddb02c75.f8384",
+        "service": "_ext_",
+        "configNode": "ad7888e7.7e30f",
+        "name": "Вытягиваем данные пользователя",
+        "collection": "Users",
+        "operation": "findOne",
+        "x": 762.8499755859375,
+        "y": 413.0499572753906,
+        "wires": [
+            [
+                "2a68a39d.2ca1e4"
+            ]
+        ]
+    },
+    {
+        "id": "c5ff9f59.ce9f98",
+        "type": "switch",
+        "z": "ddb02c75.f8384",
+        "name": "",
+        "property": "payload[0].user_id",
+        "propertyType": "msg",
+        "rules": [
+            {
+                "t": "nnull"
+            },
+            {
+                "t": "else"
+            }
+        ],
+        "checkall": "true",
+        "repair": false,
+        "outputs": 2,
+        "x": 339.1166687011719,
+        "y": 374.04998779296875,
+        "wires": [
+            [
+                "aa9b028a.122118"
+            ],
+            [
+                "fed64a5c.98fcc8"
+            ]
+        ]
+    },
+    {
+        "id": "15d4a998.914736",
+        "type": "debug",
+        "z": "ddb02c75.f8384",
+        "name": "",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "true",
+        "targetType": "full",
+        "x": 274.1166687011719,
+        "y": 240.25,
+        "wires": []
+    },
+    {
+        "id": "2a68a39d.2ca1e4",
+        "type": "link out",
+        "z": "ddb02c75.f8384",
+        "name": "",
+        "links": [
+            "c28ce3c7.89474"
+        ],
+        "x": 1264.1165771484375,
+        "y": 383.5499572753906,
+        "wires": []
+    },
+    {
+        "id": "eb59dea.f6bbb2",
+        "type": "mongodb3 in",
+        "z": "ddb02c75.f8384",
+        "service": "_ext_",
+        "configNode": "ad7888e7.7e30f",
+        "name": "(создаем новую строку в BD)Записываем в BD ID пользователя + шаг RequestPhone",
+        "collection": "Users",
+        "operation": "insert",
+        "x": 936.8499755859375,
+        "y": 289.8500061035156,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "aa9b028a.122118",
+        "type": "switch",
+        "z": "ddb02c75.f8384",
+        "name": "",
+        "property": "payload[1].$set.UserStep",
+        "propertyType": "msg",
+        "rules": [
+            {
+                "t": "nnull"
+            },
+            {
+                "t": "else"
+            }
+        ],
+        "checkall": "true",
+        "repair": false,
+        "outputs": 2,
+        "x": 502.1166687011719,
+        "y": 282.25,
+        "wires": [
+            [
+                "e10f4822.69cee"
+            ],
+            [
+                "eb59dea.f6bbb2"
+            ]
+        ]
+    },
+    {
+        "id": "2a9810e9.90de2",
+        "type": "function",
+        "z": "4f457aa.f52a584",
+        "name": "Main_menu",
+        "func": "\nvar lang = \"\";  \n\n        if (msg.payload.locale == \"ro_RO\"){\n            msg.payload.lang = 'ro_RO';\n            \n        } else if (msg.payload.locale == \"pl_PL\") {\n            msg.payload.lang = 'pl_PL';\n           \n        } else {\n           msg.payload.lang = 'en_EN';    \n        }\n\nvar template = \"Main_menu\";\nmsg.payload.template = template;\nmsg.payload.lang = lang;\nmsg.lang = lang;\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "x": 1357.36669921875,
+        "y": 354.2500305175781,
+        "wires": [
+            [
+                "9c815f44.df436"
+            ]
+        ]
+    },
+    {
+        "id": "9c815f44.df436",
+        "type": "link out",
+        "z": "4f457aa.f52a584",
+        "name": "",
+        "links": [
+            "eb113347.96c838"
+        ],
+        "x": 1492.3667297363281,
+        "y": 353.0000305175781,
+        "wires": []
+    },
+    {
+        "id": "1a6f22c4.0bdc05",
+        "type": "change",
+        "z": "4f457aa.f52a584",
+        "name": "",
+        "rules": [
+            {
+                "t": "set",
+                "p": "recepient",
+                "pt": "msg",
+                "to": "payload.entry[0].messaging[0].sender.id",
+                "tot": "msg"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 428.36669921875,
+        "y": 487.25,
+        "wires": [
+            [
+                "2149e364.17464c"
+            ]
+        ]
+    },
+    {
+        "id": "e431a86c.a0a31",
+        "type": "debug",
+        "z": "cc97d0c.ffef73",
+        "name": "",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "false",
+        "x": 659.36669921875,
+        "y": 276.5,
+        "wires": []
+    },
+    {
+        "id": "e25a0a48.2023f8",
+        "type": "http request",
+        "z": "612821d2.719428",
+        "name": "",
+        "method": "POST",
+        "ret": "txt",
+        "paytoqs": false,
+        "url": "https://31cb2dbe.ngrok.io/web",
+        "tls": "",
+        "proxy": "",
+        "authType": "basic",
+        "x": 603.36669921875,
+        "y": 876.75,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "8ed5dbad.d76c28",
+        "type": "http in",
+        "z": "e67760b4.f7e3e8",
+        "name": "",
+        "url": "/web",
+        "method": "post",
+        "upload": false,
+        "swaggerDoc": "",
+        "x": 209.36666870117188,
+        "y": 468.25,
+        "wires": [
+            [
+                "56d86e14.87e8",
+                "e0fc322a.41283",
+                "5ab4ea11.eeeb94"
+            ]
+        ]
+    },
+    {
+        "id": "56d86e14.87e8",
+        "type": "debug",
+        "z": "e67760b4.f7e3e8",
+        "name": "",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "true",
+        "targetType": "full",
+        "x": 245.36669921875,
+        "y": 581.5,
+        "wires": []
+    },
+    {
+        "id": "e0fc322a.41283",
+        "type": "function",
+        "z": "e67760b4.f7e3e8",
+        "name": "location",
+        "func": "msg.SendMessageUrl = \"https://graph.facebook.com/v2.6/me/messages?access_token=EAAO4yPW14rABAIQppk6dZCgGtbnXoaVrzMlrVYSM21XQYe1175b63NdLuIP1qg3PZAxA5ZBtmBvXlwg4hOY4VVFKKVASPUNY7mrgHl5szfsRybhnZB887MxpBHxQ2j0LHZBXsBunkQD2JdOSv91eqZAgQOLkgjcAgtqmrSzzX1mQZDZD\"\nmsg.recepient = \"2115856655202875\"\n\nvar lang = \"en_EN\";\nvar template = \"location\";\nmsg.payload.template = template;\nmsg.payload.lang = msg.lang;\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "x": 453.75,
+        "y": 446.75,
+        "wires": [
+            [
+                "ca22e5e7.429a98"
+            ]
+        ]
+    },
+    {
+        "id": "ca22e5e7.429a98",
+        "type": "link out",
+        "z": "e67760b4.f7e3e8",
+        "name": "",
+        "links": [
+            "eb113347.96c838"
+        ],
+        "x": 669.36669921875,
+        "y": 436,
+        "wires": []
+    },
+    {
+        "id": "85089cd1.ffe368",
+        "type": "debug",
+        "z": "4dbec83.e890bb8",
+        "name": "",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "true",
+        "targetType": "full",
+        "x": 186.36666870117188,
+        "y": 652.5,
+        "wires": []
+    },
+    {
+        "id": "c7257d5a.eace78",
+        "type": "function",
+        "z": "4f457aa.f52a584",
+        "name": "Добавляем шаг пользователя в BD",
+        "func": "msg.payload=[{user_id:msg.recepient,UserStep:\"Main_menu\"}]\n\nreturn msg;\n",
+        "outputs": 1,
+        "noerr": 0,
+        "x": 1028.36669921875,
+        "y": 283.25,
+        "wires": [
+            [
+                "528d76e4.952e7"
+            ]
+        ]
+    },
+    {
+        "id": "528d76e4.952e7",
+        "type": "link out",
+        "z": "4f457aa.f52a584",
+        "name": "",
+        "links": [
+            "49b08c34.7b8364"
+        ],
+        "x": 1266.36669921875,
+        "y": 280,
+        "wires": []
+    },
+    {
+        "id": "5ab4ea11.eeeb94",
+        "type": "function",
+        "z": "e67760b4.f7e3e8",
+        "name": "Добавляем шаг пользователя в BD",
+        "func": "\nmsg.payload=[{user_id:\"2115856655202875\"},{\n$set:{\n    UserStep:\"location\"\n    \n}}]\n\nreturn msg;\n",
+        "outputs": 1,
+        "noerr": 0,
+        "x": 462.75,
+        "y": 367.75,
+        "wires": [
+            [
+                "a6399df4.943f6"
+            ]
+        ]
+    },
+    {
+        "id": "a6399df4.943f6",
+        "type": "link out",
+        "z": "e67760b4.f7e3e8",
+        "name": "",
+        "links": [
+            "49b08c34.7b8364"
+        ],
+        "x": 700.75,
+        "y": 364.5,
+        "wires": []
+    },
+    {
+        "id": "94f39aa9.2ea818",
+        "type": "debug",
+        "z": "4f457aa.f52a584",
+        "name": "",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "false",
+        "x": 1472.36669921875,
+        "y": 680.5,
+        "wires": []
+    },
+    {
+        "id": "ae75257f.12f52",
+        "type": "debug",
+        "z": "4f457aa.f52a584",
+        "name": "",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "false",
+        "x": 1090.36669921875,
+        "y": 702.5,
+        "wires": []
+    },
+    {
+        "id": "6b757647.86397",
+        "type": "link out",
+        "z": "4f457aa.f52a584",
+        "name": "",
+        "links": [
+            "49b08c34.7b8364"
+        ],
+        "x": 1503.36669921875,
+        "y": 607,
+        "wires": []
+    },
+    {
+        "id": "c28ce3c7.89474",
+        "type": "link in",
+        "z": "4f457aa.f52a584",
+        "name": "",
+        "links": [
+            "2a68a39d.2ca1e4"
+        ],
+        "x": 1631.36669921875,
+        "y": 589.25,
+        "wires": [
+            [
+                "677188e.80dd2f8"
+            ]
+        ]
+    },
+    {
+        "id": "677188e.80dd2f8",
+        "type": "function",
+        "z": "4f457aa.f52a584",
+        "name": "",
+        "func": "msg.UserStep = msg.payload.UserStep\nmsg.payload.event = msg.event\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "x": 1731.36669921875,
+        "y": 581.25,
+        "wires": [
+            [
+                "45917a7b.625964"
+            ]
+        ]
+    },
+    {
+        "id": "c596f438.de8f68",
+        "type": "function",
+        "z": "64b635fe.7d8824",
+        "name": "Destination",
+        "func": "\nvar template = \"Destination\";\nmsg.payload.template = template;\nmsg.payload.lang = msg.lang;\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "x": 697.36669921875,
+        "y": 700.25,
+        "wires": [
+            [
+                "53764dc9.57976c"
+            ]
+        ]
+    },
+    {
+        "id": "53764dc9.57976c",
+        "type": "link out",
+        "z": "64b635fe.7d8824",
+        "name": "",
+        "links": [
+            "eb113347.96c838"
+        ],
+        "x": 887.36669921875,
+        "y": 700,
+        "wires": []
+    },
+    {
+        "id": "dbca5dc1.ceb568",
+        "type": "function",
+        "z": "64b635fe.7d8824",
+        "name": "Добавляем шаг пользователя в BD",
+        "func": "\nmsg.payload=[{user_id:msg.recepient},{\n$set:{\n    UserStep:\"Destination\"\n    \n}}]\n\nreturn msg;\n",
+        "outputs": 1,
+        "noerr": 0,
+        "x": 775.75,
+        "y": 652.75,
+        "wires": [
+            [
+                "39ce79e.d088506"
+            ]
+        ]
+    },
+    {
+        "id": "39ce79e.d088506",
+        "type": "link out",
+        "z": "64b635fe.7d8824",
+        "name": "",
+        "links": [
+            "49b08c34.7b8364"
+        ],
+        "x": 1013.75,
+        "y": 649.5,
+        "wires": []
+    },
+    {
+        "id": "84407908.51f7f8",
+        "type": "debug",
+        "z": "64b635fe.7d8824",
+        "name": "",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "false",
+        "x": 433.36669921875,
+        "y": 704.5,
+        "wires": []
+    },
+    {
+        "id": "aa7fcc7a.fd987",
+        "type": "function",
+        "z": "4dbec83.e890bb8",
+        "name": "location",
+        "func": "msg.SendMessageUrl = \"https://graph.facebook.com/v2.6/me/messages?access_token=EAAO4yPW14rABAIQppk6dZCgGtbnXoaVrzMlrVYSM21XQYe1175b63NdLuIP1qg3PZAxA5ZBtmBvXlwg4hOY4VVFKKVASPUNY7mrgHl5szfsRybhnZB887MxpBHxQ2j0LHZBXsBunkQD2JdOSv91eqZAgQOLkgjcAgtqmrSzzX1mQZDZD\"\nmsg.recepient = \"2115856655202875\"\n\nvar lang = \"en\";\nvar template = \"location\";\nmsg.payload.template = template;\nmsg.payload.lang = lang;\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "x": 652.75,
+        "y": 498.75,
+        "wires": [
+            [
+                "8a9c9c2f.883ae"
+            ]
+        ]
+    },
+    {
+        "id": "8a9c9c2f.883ae",
+        "type": "link out",
+        "z": "4dbec83.e890bb8",
+        "name": "",
+        "links": [
+            "eb113347.96c838"
+        ],
+        "x": 868.36669921875,
+        "y": 488,
+        "wires": []
+    },
+    {
+        "id": "a60dc612.1cc6b",
+        "type": "function",
+        "z": "4dbec83.e890bb8",
+        "name": "Добавляем шаг пользователя в BD",
+        "func": "\nmsg.payload=[{user_id:\"2115856655202875\"},{\n$set:{\n    UserStep:\"location\"\n    \n}}]\n\nreturn msg;\n",
+        "outputs": 1,
+        "noerr": 0,
+        "x": 661.75,
+        "y": 419.75,
+        "wires": [
+            [
+                "449253f8.d7e694"
+            ]
+        ]
+    },
+    {
+        "id": "449253f8.d7e694",
+        "type": "link out",
+        "z": "4dbec83.e890bb8",
+        "name": "",
+        "links": [
+            "49b08c34.7b8364"
+        ],
+        "x": 899.75,
+        "y": 416.5,
+        "wires": []
+    },
+    {
+        "id": "d6ca0929.43429",
+        "type": "link in",
+        "z": "4dbec83.e890bb8",
+        "name": "",
+        "links": [
+            "f7de063a.e737b"
+        ],
+        "x": 116.36666870117188,
+        "y": 779.25,
+        "wires": [
+            [
+                "9d73ff73.1d06f8"
+            ]
+        ]
+    },
+    {
+        "id": "9d73ff73.1d06f8",
+        "type": "debug",
+        "z": "4dbec83.e890bb8",
+        "name": "",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "false",
+        "x": 216.36666870117188,
+        "y": 813.5,
+        "wires": []
+    },
+    {
+        "id": "8163629f.8496e8",
+        "type": "function",
+        "z": "4f457aa.f52a584",
+        "name": "",
+        "func": "msg.url = msg.FbUrl + msg.recepient + '?fields=locale&access_token=' + msg.FbAccessToken; \nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "x": 927.36669921875,
+        "y": 441.25,
+        "wires": [
+            [
+                "d10eedba.d3813"
+            ]
+        ]
+    },
+    {
+        "id": "d10eedba.d3813",
+        "type": "http request",
+        "z": "4f457aa.f52a584",
+        "name": "",
+        "method": "GET",
+        "ret": "obj",
+        "paytoqs": false,
+        "url": "",
+        "tls": "",
+        "proxy": "",
+        "authType": "basic",
+        "x": 1112.36669921875,
+        "y": 402.75,
+        "wires": [
+            [
+                "2a9810e9.90de2",
+                "2e60e1b0.afe7fe"
+            ]
+        ]
+    },
+    {
+        "id": "2e60e1b0.afe7fe",
+        "type": "debug",
+        "z": "4f457aa.f52a584",
+        "name": "",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "false",
+        "x": 1258.36669921875,
+        "y": 453.5,
+        "wires": []
+    }
+]

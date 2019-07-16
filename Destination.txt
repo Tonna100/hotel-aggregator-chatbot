@@ -1,0 +1,19 @@
+{"Destination":{"text": "{text}",
+    "quick_replies":[
+      {
+        "content_type":"text",
+        "title":"{top}",
+        "payload":"top"
+      },
+        {
+        "content_type":"text",
+        "title":"{all}",
+        "payload":"all"
+      },
+            {
+        "content_type":"text",
+        "title":"{back_Destination}",
+        "payload":"back_Destination"
+      }
+    ]
+  }, "en": {"text": "Please check out our TOP list or type in the destination you'd like go to", "top": "TOP destinations", "all": "All destination", "back_Destination": "return"}}

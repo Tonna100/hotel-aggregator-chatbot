@@ -1,0 +1,29 @@
+{"Main_menu": {
+    "attachment":{
+      "type":"template",
+      "payload":{
+        "template_type":"generic",
+        "elements":[
+           {
+            "title":"{title}",
+            "subtitle":"{subtitle}",
+            "buttons":[
+              {
+                "type":"postback",
+                "title":"{search}",
+                "payload":"search"
+              }     ,{
+                "type":"postback",
+                "title":"{agent}",
+                "payload":"agent"
+              }  ,{
+                "type":"web_url",
+                "title":"{Website}",
+                "url":"https://www.wakacyjnyswiat.pl/"
+              }       
+            ]      
+          }          
+        ]
+      }
+    }
+},"en": {"title": "At any time, use the menu below to navigate through the features", "subtitle": "Welcome to Fiona Travel - your personal assistant to help you choose the best pacjage at best prices and provide you with the best advice!", "search": "Find a Package", "agent": "Talk to Agent 🙎‍♀️", "Website": "Website"}}
